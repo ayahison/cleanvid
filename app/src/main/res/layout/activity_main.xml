@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d0f14"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CleanVid"
+        android:textColor="#4dff88"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bersihkan video: strip metadata AI, kompresi ulang, hasil aman diunggah"
+        android:textColor="#8899aa"
+        android:textSize="13sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/pick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Video"
+        android:backgroundTint="#4dff88"
+        android:textColor="#000"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:background="#161a23"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#aabbcc"
+            android:textSize="12sp"
+            android:fontFamily="monospace"/>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://github.com/ffmpegkit-maintained/ffmpeg-kit/releases' }
+    }
+}
+rootProject.name = "CleanVid"
+include ':app'
